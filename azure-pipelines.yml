@@ -4,13 +4,13 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- V12
 pr:
-- main
+- V12
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Ran on Main
-  displayName: 'Run on Main'
+- script: echo Ran on V12
+  displayName: 'Run on V12'
