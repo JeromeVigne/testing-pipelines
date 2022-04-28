@@ -1,0 +1,11 @@
+trigger:
+
+pr:
+
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo should run always
+  displayName: 'Run always'
