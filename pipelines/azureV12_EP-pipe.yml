@@ -4,13 +4,13 @@
 # https://aka.ms/yaml
 
 trigger:
-- v12_EP
+- V12_EP
 pr:
-- v12_EP
+- V12_EP
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Ran on v12_EP
-  displayName: 'Run on v12_EP'
+- script: echo Ran on V12_EP
+  displayName: 'Run on V12_EP'
