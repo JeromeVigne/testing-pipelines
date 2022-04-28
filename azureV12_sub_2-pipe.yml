@@ -1,0 +1,16 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- v12_sub_2
+pr:
+- v12_sub_2
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Ran on v12_sub_2
+  displayName: 'Run on v12_sub_2'
