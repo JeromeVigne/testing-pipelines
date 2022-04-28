@@ -14,3 +14,4 @@ pool:
 steps:
 - script: echo Ran on V12_EP
   displayName: 'Run on V12_EP'
+- script: echo another word
